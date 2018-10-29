@@ -3,14 +3,14 @@ using namespace std;
 
 int main()
 {
-    int space, rows;
+    int space, row;
 
     cout <<"Enter number of rows: ";
-    cin >> rows;
+    cin >> row;
 
-    for(int i = 1, k = 0; i <= rows; ++i, k = 0)
+    for(int i = 1, k = 0; i <= row; ++i, k = 0)
     {
-        for(space = 1; space <= rows-i; ++space)
+        for(space = 1; space <= row-i; ++space)
         {
             cout <<"  ";
         }
